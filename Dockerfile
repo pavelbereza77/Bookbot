@@ -7,5 +7,5 @@ ENV PYTHONUNBUFFERED 1
 WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache -r /app/requirements.txt
-COPY app/bot
+COPY bot app/bot
 CMD ["python", "-m", "mine"]
