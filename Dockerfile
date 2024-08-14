@@ -8,4 +8,4 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache -r /app/requirements.txt
 COPY bot /app/bot
-CMD ["python", "-m", "bot"]
+CMD ["python", "-m", "mine"]
